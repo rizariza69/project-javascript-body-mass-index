@@ -17,7 +17,7 @@
 
     <h1>Are You Ideal??</h1>
     <h2>Please Check</h2>
-    <form id="form" method="POST" onsubmit="show()">
+    <form id="form" class="form" method="POST" onsubmit="show()">
       <div class="form-group">
         <label for="formGroupExampleInput">Weight</label>
         <input type="text" class="form-control" id="weight" placeholder="Your weight (kg)">
@@ -26,10 +26,12 @@
         <label for="formGroupExampleInput2">Height</label>
         <input type="text" class="form-control" id="height" placeholder="Your height(cm)">
       </div>
-      <button type="button" class="btn btn-primary" onclick="show()">submit</button>
+      <div class=" button">
+        <button type="button" class="btn btn-primary" onclick="show()">submit</button>
+      </div>
     </form>
     <br>
-    <h1 id="conclution"></h1>
+    <h1 id="conclution" class="conclution"></h1>
 
   </div>
   <script src="index.js"></script>
