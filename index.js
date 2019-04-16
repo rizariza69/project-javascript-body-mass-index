@@ -1,5 +1,3 @@
-"use stirct";
-
 function show() {
 
   event.preventDefault()
